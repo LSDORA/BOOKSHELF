@@ -7,6 +7,10 @@
     font-family: 'bdark';
     src: url(../font/ClashDisplay-Bold.otf);
 }
+@font-face {
+    font-family: 'blight';
+    src: url(../font/Pencerio-Hairline.otf);
+}
 
 body{
     background-color: whitesmoke;
@@ -16,6 +20,12 @@ body,nav,ul,li{
    list-style: none;
    padding: 0;
    margin: 0;
+}
+h2{
+    font-family: 'blight';
+    color: #ffffff;
+    letter-spacing: 3px;
+    transform: translateY(-20rem);
 }
 li{
     font-size: 1.2rem;
@@ -31,6 +41,10 @@ h1{
     font-size: 14rem;
     transform: translateY(-6rem);
  
+}
+a{
+    color: #000;
+    text-decoration: none;
 }
 section{
     padding: 0;
@@ -48,7 +62,7 @@ width: 100%;
 text-align: center;
 height: 45.5rem;
 
-background: url(../img/pexels-arturoaez220-16011208.jpg) ;
+background: url(../img/22.png) ;
 background-size: cover;
 background-position: center bottom 50%;
 }
@@ -145,7 +159,7 @@ h3{
     color: #383838;
     font-weight: 200;
     position: relative;
-    top: 85%;
+    top: 88%;
     font-size: 1.08rem;
     left: 1rem;
 }
@@ -165,4 +179,110 @@ h3{
 }
 .trois{
     grid-column: span 3 / span 3;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    transform: translateY(-8rem);
+}
+.info div{
+
+    padding: 1% 6%;
+}
+.search h3{
+    font-weight: 200;
+}
+
+
+
+
+
+
+
+
+.a,.b,.c{
+    height: 43rem;
+}
+
+
+.indiv{
+    display: flex;
+}
+.a{
+    width: 25%;
+    position: sticky;
+    top: 3rem;
+}
+.b{
+    
+    width: 70%;
+    height: 83rem;
+}
+.c{
+    
+    position: sticky;
+    top: 3rem;
+    width: 5%;
+}
+.c div{
+    background-color: #32527b;
+    height: 92%;
+    margin: 25%;
+    margin-bottom: 15%;
+}
+.progress{
+    height: calc(100% - 44%) !important;
+    background-color: #d9d9d9 !important;
+    width: 100%;
+    margin: 0 !important;
+}
+
+
+.indiv h4{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+
+.a img{
+    margin-top: 6rem !important;
+    height: 25rem;
+    margin: 13%;
+}
+.a div{
+    margin-top: 0 !important;
+    margin: 13%;
+}
+
+.bf{
+    color: black ;
+    position: sticky;
+    top: 0rem;
+    background-color: whitesmoke;
+}
+.dr{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 7%;
+    width: 94.5%;
+
+}
+.dr div{ 
+  
+    width: 120%;
+    height: 20rem;
+}
+
+.b p{
+  
+    margin: 2% 1%;
+    font-size: 2rem;
+}
+
+label{
+    font-size: 1.5rem;
+   
 }
