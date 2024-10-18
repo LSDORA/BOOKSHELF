@@ -17,10 +17,18 @@ function displayBooks(books) {
     // Créer l'élément principal pour chaque livre
     const rrElement = document.createElement('div');
     rrElement.classList.add('rr');
-    rrElement.innerHTML = `
-      ■ <h3>${book.title} - ${book.author}</h3>
+
+    // Appliquer l'image en background de la div .rr
+    rrElement.style.backgroundImage = `url(${book.image})`;
+
+    // Ajouter les informations du livre
+    const bookInfo = document.createElement('div');
+    bookInfo.innerHTML = `
+      <h3>${book.title} - ${book.author}</h3>
       <h4>${book.readPages}/${book.pages}</h4>
     `;
+
+    rrElement.appendChild(bookInfo);
     bookList.appendChild(rrElement);
   });
 }

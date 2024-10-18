@@ -3,11 +3,20 @@
       "title": "Atteindre l'excellence",
       "author": "Robert Greene",
       "date": "novembre 1, 2012",
-      "image": "./img/22.png",
+      "image": "./img/22.jpg",
       "pages": 126,
       "readPages": 56,
       "about": "Un roman dystopique qui critique les régimes totalitaires.",
       "notes": "Sombre et captivant, une lecture importante."
-    }
+    },
+    {
+        "title": "La Dictature de l'égo",
+        "author": "Mathias Roux",
+        "date": "aout 27, 2020",
+        "image": "./img/23.jpg",
+        "pages": 219,
+        "readPages": 0,
+        "about": "Un roman dystopique qui critique les régimes totalitaires.",
+        "notes": "Sombre et captivant, une lecture importante."
+      }
   ]
-  
