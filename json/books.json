@@ -19,4 +19,25 @@
         "about": "Un roman dystopique qui critique les régimes totalitaires.",
         "notes": "Sombre et captivant, une lecture importante."
       }
+      ,
+    {
+        "title": "La loi de l'attraction",
+        "author": "Rhonda Bryne",
+        "date": "aout 27, 2020",
+        "image": "./img/24.jpg",
+        "pages": 219,
+        "readPages": 0,
+        "about": "Un roman dystopique qui critique les régimes totalitaires.",
+        "notes": "Sombre et captivant, une lecture importante."
+      },
+      {
+          "title": "48 loi du pouvoir",
+          "author": "Robert Greene",
+          "date": "aout 27, 2020",
+          "image": "./img/25.jpg",
+          "pages": 219,
+          "readPages": 0,
+          "about": "Un roman dystopique qui critique les régimes totalitaires.",
+          "notes": "Sombre et captivant, une lecture importante."
+        }
   ]

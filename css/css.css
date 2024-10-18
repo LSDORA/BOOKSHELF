@@ -15,6 +15,7 @@
 body{
     background-color: whitesmoke;
     font-family: 'dark';
+    overflow-x: hidden;
 }
 body,nav,ul,li{
    list-style: none;
@@ -131,7 +132,8 @@ button{
     border: 1px solid white;
     border-radius: 5rem;
     height: 3rem;
-    width: 93%;
+    width: 198%;
+    grid-column: span 2 / span 3;
 }
 input[type="search"]:focus{
     outline: none;
@@ -288,4 +290,74 @@ h3{
 label{
     font-size: 1.5rem;
    
+}
+
+
+
+@media (min-width:375px ) and (max-width: 475px) {
+    * {
+        box-sizing: border-box;
+      }
+    body{
+        overflow-x: hidden;
+        width: 100%!important;
+        background-color: whitesmoke;
+        max-width: 100%;
+    }
+     
+     h1{
+        font-size: 3rem;
+        transform: translateY(6rem);
+     }
+     .headbanner{
+        width: 100%;
+        text-align: center;
+        height: 41.5rem;
+        
+        background: url(../img/22.png) ;
+        background-size: cover;
+        background-position: center bottom 50%;
+        }
+
+        h2{
+            font-family: 'blight';
+            color: #ffffff;
+            letter-spacing: 3px;
+            transform: translateY(4rem);
+            font-size: 1rem;
+        }
+      
+        .info{
+            display: flex;
+            justify-content: space-around;
+            color: white;
+            transform: translateY(18rem);
+        }
+        .list{
+            background-color: whitesmoke;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        
+        }
+        .list h3{
+            color: #383838;
+            font-weight: 200;
+            position: relative;
+            top: 80%;
+            font-size: .8rem;
+            left: 1rem;
+            width: 80%;
+        }
+        .list h4{
+            color: #383838;
+            font-weight: 200;
+            position: relative;
+            top: 75%;
+            left: 75%;
+            font-size: .8rem;
+        }
+        .list div{
+            height: 18rem;
+        }
 }
